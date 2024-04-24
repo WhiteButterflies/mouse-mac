@@ -1,5 +1,6 @@
 #!/usr/bin/python
 try:
+
     from AppKit import NSWorkspace
 except ImportError:
     print("Can't import AppKit -- maybe you're running python from brew?")
